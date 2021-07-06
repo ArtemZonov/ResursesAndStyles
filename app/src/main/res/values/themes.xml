@@ -13,4 +13,17 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    
+    <style name="Theme_TextViews">
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="backgroundColor">@color/purple_200</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
 </resources>
